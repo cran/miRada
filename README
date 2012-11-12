@@ -1,0 +1,4 @@
+
+2012/09/11: 
+  Start to clean codes, data, and rewrite help files.  Change package name from "ada" to "miRada" (to be more specific).
+  The algorithms in BDA, and CUMSUM can also be collected to this package at a later time.

@@ -1,0 +1,11 @@
+useDynLib(miRada, .registration = TRUE, .fixes = ".F_")
+export(.miRadaConnect)
+exportPattern("^[^\\.]")
+
+S3method(print, exiqon)
+S3method(print, qrtpcr)
+S3method(print, luminex)
+S3method(print, ilRNA)
+
+S3method(summary, exiqon)
+
